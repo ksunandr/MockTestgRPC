@@ -2,7 +2,9 @@ package mypkg;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-
+/**
+ * gRPC client
+ * */
 public class MyGrpcClientService {
 
     private final UserServiceGrpc.UserServiceBlockingStub stub;
