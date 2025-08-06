@@ -6,11 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.withSettings;
 
 import mypkg.UserServiceGrpc.UserServiceBlockingStub;
 
-class MyGrpcClientServiceTest {
+class MyGrpcClientServiceManualTest {
 
     /**
      * Test {@link MyGrpcClientService#MyGrpcClientService(UserServiceGrpc.UserServiceBlockingStub)}.

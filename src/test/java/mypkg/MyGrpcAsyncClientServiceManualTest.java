@@ -8,7 +8,7 @@ import org.mockito.MockedStatic;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-class MyGrpcAsyncClientServiceTest {
+class MyGrpcAsyncClientServiceManualTest {
     /**
      * Test {@link MyGrpcAsyncClientService#getUserName(String)}.
      *
